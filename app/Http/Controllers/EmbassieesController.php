@@ -9,6 +9,7 @@ use App\Models\Hospital;
 use App\Models\Airport;
 use App\Models\Provincesregion;
 use Illuminate\Support\Facades\DB;
+use Exception;
 
 class EmbassieesController extends Controller
 {

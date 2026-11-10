@@ -55,7 +55,7 @@ class MasterPoliceController extends Controller
 
      public function create()
     {
-         $provinces = Provincesregion::all();
+        $provinces = Provincesregion::orderBy('provinces_region', 'asc')->get();
         return view('pages.master.createpolice', [
             'provinces' => $provinces
         ]);

@@ -63,7 +63,7 @@ class MasterhospitalController extends Controller
      */
     public function create()
     {
-        $provinces = Provincesregion::all();
+        $provinces = Provincesregion::orderBy('provinces_region', 'asc')->get();
         return view('pages.master.createhospital', [
             'provinces' => $provinces
         ]);
