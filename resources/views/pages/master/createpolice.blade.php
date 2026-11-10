@@ -21,9 +21,9 @@
 
          <div class="col-md-12">
             <div class="form-group">
-                <label>Island</label>
+                <label>Village</label>
                 <select class="form-control" name="province_id">
-                        <option value="0">-Choosse Island-</option>
+                        <option value="0">-Choosse Village-</option>
                     @foreach($provinces as $prov)
                         <option value="{{$prov->id}}">{{$prov->provinces_region}}</option>
                     @endforeach
@@ -91,9 +91,15 @@
                 </div>
 
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input category-radio" type="radio" name="category" value="Local Police Facility" data-icon="{{ asset('images/Layer2.png') }}">
+                    <input class="form-check-input category-radio" type="radio" name="category" value="Local Police Outpost" data-icon="{{ asset('images/Layer2.png') }}">
                     <img src="{{ asset('images/Layer2.png') }}" style="width:12px; height:12px;">
-                    <label class="form-check-label">Local Police Facility</label>
+                    <label class="form-check-label">Local Police Outpost</label>
+                </div>
+
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input category-radio" type="radio" name="category" value="Specialist Police Outpost" data-icon="{{ asset('images/Layer3.png') }}">
+                    <img src="{{ asset('images/Layer3.png') }}" style="width:12px; height:12px;">
+                    <label class="form-check-label">Specialist Police Outpost</label>
                 </div>
 
             </div>

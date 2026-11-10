@@ -29,7 +29,7 @@
 
         <div class="col-md-12">
             <div class="form-group">
-                <label>Edit Island</label>
+                <label>Edit Village</label>
                 <select class="form-control" name="province_id">
                     <?php
                         foreach ($provinces as $prov) {
@@ -66,8 +66,11 @@
             <div class="form-group">
                 <label>Edit Facility Level</label>
                 <select class="form-control" name="facility_level">
-                    <option value="Hospital" {{ old('facility_level', $hospital->facility_level ?? '') == 'Hospital' ? 'selected' : '' }}>
-                         Hospital
+                    <option value="National Hospital" {{ old('facility_level', $hospital->facility_level ?? '') == 'National Hospital' ? 'selected' : '' }}>
+                         National Hospital
+                    </option>
+                    <option value="District Hospital" {{ old('facility_level', $hospital->facility_level ?? '') == 'District Hospital' ? 'selected' : '' }}>
+                         District Hospital
                     </option>
                     <option value="Clinic / Health Center" {{ old('facility_level', $hospital->facility_level ?? '') == 'Clinic / Health Center' ? 'selected' : '' }}>
                          Clinic / Health Center
@@ -112,8 +115,9 @@
 
                 @php
                     $icons = [
-                        ['url' => 'https://pg.concordreview.com/wp-content/uploads/2025/01/hospital_pin-blue.png', 'label' => 'Hospital'],
-                        ['url' => 'https://pg.concordreview.com/wp-content/uploads/2025/01/hospital_pin-green.png', 'label' => 'Clinic / Health Center'],
+                        ['url' => 'https://pg.concordreview.com/wp-content/uploads/2025/01/hospital_pin-blue.png', 'label' => 'National Hospital'],
+                        ['url' => 'https://pg.concordreview.com/wp-content/uploads/2025/01/hospital_pin-green.png', 'label' => 'District Hospital'],
+                        ['url' => 'https://pg.concordreview.com/wp-content/uploads/2025/01/hospital_pin-tosca.png', 'label' => 'Clinic / Health Center'],
                     ];
                 @endphp
 

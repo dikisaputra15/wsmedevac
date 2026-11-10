@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('title', 'Airports')
-@section('page-title', 'Tuvalu Airports')
+@section('page-title', 'Samoa Airports')
 
 @push('styles')
 <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
@@ -482,7 +482,7 @@
 <script>
 // === Inisialisasi Peta ===
 const map = new google.maps.Map(document.getElementById('map'), {
-    center: { lat: -7.1095, lng: 177.6493 },
+    center: { lat: -13.7590, lng: -172.1046 },
     zoom: 7,
     mapTypeId: 'roadmap',
     mapTypeControl: true,
@@ -1009,7 +1009,7 @@ function addAirportMarkers(data) {
             <strong>Classification:</strong> ${airport.category || 'N/A'}<br>
             <strong>Address:</strong>
                 ${airport.address || 'N/A'}
-                ${airport.province_name ? ', ' + airport.province_name : ''}, Tuvalu<br>
+                ${airport.province_name ? ', ' + airport.province_name : ''}, Samoa<br>
             <strong>Telephone:</strong> ${airport.telephone || 'N/A'}<br>
             <strong>Website:</strong> ${airport.website || 'N/A'}<br>
         `;

@@ -22,7 +22,7 @@
 
          <div class="col-md-12">
             <div class="form-group">
-                <label>Edit Island</label>
+                <label>Edit Village</label>
                 <select class="form-control" name="province_id">
                     <?php
                         foreach ($provinces as $prov) {
@@ -109,15 +109,26 @@
                     <label>National Police HQ</label>
                 </div>
 
-                <div class="form-check form-check-inline police-option {{ $police->category == 'Local Police Facility' ? 'selected' : '' }}">
+                <div class="form-check form-check-inline police-option {{ $police->category == 'Local Police Outpost' ? 'selected' : '' }}">
                     <input class="form-check-input category-radio"
                         type="radio"
                         name="category"
-                        value="Local Police Facility"
+                        value="Local Police Outpost"
                         data-icon="{{ asset('images/Layer2.png') }}"
-                        {{ $police->category == 'Local Police Facility' ? 'checked' : '' }}>
+                        {{ $police->category == 'Local Police Outpost' ? 'checked' : '' }}>
                     <img src="{{ asset('images/Layer2.png') }}" width="16">
-                    <label>Local Police Facility</label>
+                    <label>Local Police Outpost</label>
+                </div>
+
+                 <div class="form-check form-check-inline police-option {{ $police->category == 'Specialist Police Outpost' ? 'selected' : '' }}">
+                    <input class="form-check-input category-radio"
+                        type="radio"
+                        name="category"
+                        value="Specialist Police Outpost"
+                        data-icon="{{ asset('images/Layer3.png') }}"
+                        {{ $police->category == 'Specialist Police Outpost' ? 'checked' : '' }}>
+                    <img src="{{ asset('images/Layer3.png') }}" width="16">
+                    <label>Specialist Police Outpost</label>
                 </div>
 
             </div>

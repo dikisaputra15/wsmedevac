@@ -22,7 +22,7 @@
 
          <div class="col-md-12">
             <div class="form-group">
-                <label>Edit Island</label>
+                <label>Edit Village</label>
                 <select class="form-control" name="province_id">
                     <?php
                         foreach ($provinces as $prov) {

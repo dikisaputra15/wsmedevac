@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('title','More Details')
-@section('page-title', 'Tuvalu Airports')
+@section('page-title', 'Samoa Airports')
 
 @push('styles')
 
@@ -743,7 +743,7 @@
                 <b>Overview</b>
             </h6>
             <p class="text-justify">
-                Level 1 facility is the most basic healthcare delivery point in Tuvalu, typically located in rural or remote communities and staffed by a community health worker or aid post orderly. Aid posts provides essential first-contact care, health education, and basic treatment for common conditions, referring patients to higher-level facilities as needed, and plays a critical role in extending primary healthcare access under Tuvalu National Department of Health.
+                Level 1 facility is the most basic healthcare delivery point in Samoa, typically located in rural or remote communities and staffed by a community health worker or aid post orderly. Aid posts provides essential first-contact care, health education, and basic treatment for common conditions, referring patients to higher-level facilities as needed, and plays a critical role in extending primary healthcare access under Samoa National Department of Health.
             </p>
              <h6 class="fw-bold">
                 <b>Role</b>
@@ -787,10 +787,10 @@
                 </ul>
             </p>
              <h5 class="fw-bold" style="color:#3c8dbc;">
-                Tuvalu Government Health System
+                Samoa Government Health System
             </h5>
             <p class="text-justify">
-                Tuvalu operates a state-led, tax-funded public health system without a unified national health insurance scheme. The system is administered by Tuvalu National Department of Health and delivered through a decentralized network of provincial and district health services.
+                Samoa operates a state-led, tax-funded public health system without a unified national health insurance scheme. The system is administered by Samoa National Department of Health and delivered through a decentralized network of provincial and district health services.
             </p>
             <p class="text-justify">
                 Healthcare financing is primarily derived from:
@@ -798,13 +798,13 @@
                     <li>General government taxation</li>
                     <li>Significant external donor support</li>
                 </ul>
-                Tuvalu does not operate parallel insurance schemes. Instead, the system is structured around public service provision with limited user fees, supplemented by private out-of-pocket payments and employer-based arrangements.
+                Samoa does not operate parallel insurance schemes. Instead, the system is structured around public service provision with limited user fees, supplemented by private out-of-pocket payments and employer-based arrangements.
             </p>
             <h5 class="fw-bold" style="color:#3c8dbc;">
                 Public Health Service Delivery System (Government & Provincial Health Authorities)
             </h5>
             <p class="text-justify">
-                Tuvalu’s primary healthcare system is delivered through a nationwide network of public facilities managed by Provincial Health Authorities (PHAs) under the policy direction of the National Department of Health. It covers most of the population, particularly in rural and remote areas.
+                Samoa’s primary healthcare system is delivered through a nationwide network of public facilities managed by Provincial Health Authorities (PHAs) under the policy direction of the National Department of Health. It covers most of the population, particularly in rural and remote areas.
             </p>
             <p class="text-justify">
                 The system is largely financed through government budgets, meaning services are free or low-cost at the point of care, especially for essential health services.
@@ -840,7 +840,7 @@
                 <b>Overview</b>
             </h6>
             <p class="text-justify">
-                Level 2 facility is a small primary care facility in Tuvalu providing basic outpatient and preventive services, typically staffed by community health workers or nursing staff. Level 2 facilities are an intermediary between aid posts (Level 1) and health centers (Level 3), managing minor conditions and referring patients requiring higher-level care upward, while supporting local public health outreach under the Tuvalu National Department of Health.
+                Level 2 facility is a small primary care facility in Samoa providing basic outpatient and preventive services, typically staffed by community health workers or nursing staff. Level 2 facilities are an intermediary between aid posts (Level 1) and health centers (Level 3), managing minor conditions and referring patients requiring higher-level care upward, while supporting local public health outreach under the Samoa National Department of Health.
             </p>
              <h6 class="fw-bold">
                 <b>Role</b>
@@ -885,10 +885,10 @@
                 </ul>
             </p>
              <h5 class="fw-bold" style="color:#3c8dbc;">
-                Tuvalu Government Health System
+                Samoa Government Health System
             </h5>
             <p class="text-justify">
-                Tuvalu operates a state-led, tax-funded public health system without a unified national health insurance scheme. The system is administered by Tuvalu National Department of Health and delivered through a decentralized network of provincial and district health services.
+                Samoa operates a state-led, tax-funded public health system without a unified national health insurance scheme. The system is administered by Samoa National Department of Health and delivered through a decentralized network of provincial and district health services.
             </p>
             <p class="text-justify">
                 Healthcare financing is primarily derived from:
@@ -896,13 +896,13 @@
                     <li>General government taxation</li>
                     <li>Significant external donor support</li>
                 </ul>
-                Tuvalu does not operate parallel insurance schemes. Instead, the system is structured around public service provision with limited user fees, supplemented by private out-of-pocket payments and employer-based arrangements.
+                Samoa does not operate parallel insurance schemes. Instead, the system is structured around public service provision with limited user fees, supplemented by private out-of-pocket payments and employer-based arrangements.
             </p>
             <h5 class="fw-bold" style="color:#3c8dbc;">
                 Public Health Service Delivery System (Government & Provincial Health Authorities)
             </h5>
             <p class="text-justify">
-                Tuvalu’s primary healthcare system is delivered through a nationwide network of public facilities managed by Provincial Health Authorities (PHAs) under the policy direction of the National Department of Health. It covers most of the population, particularly in rural and remote areas.
+                Samoa’s primary healthcare system is delivered through a nationwide network of public facilities managed by Provincial Health Authorities (PHAs) under the policy direction of the National Department of Health. It covers most of the population, particularly in rural and remote areas.
             </p>
             <p class="text-justify">
                 The system is largely financed through government budgets, meaning services are free or low-cost at the point of care, especially for essential health services.
@@ -935,11 +935,11 @@
       </div>
       <div class="modal-body">
             <h6 class="fw-bold"><b>Overview</b></h6>
-            <p class="text-justify">Community Health Centers are the primary-care tier of Tuvalu’s public system. The Community Health Centers Act of 2025 (10 GCA Chapter 3, Article 8, as amended by P.L. 38-097 on 11 February 2026) makes the Tuvalu Community Health Centers (GCHC) “a public corporation and autonomous instrumentality.” GCHC is administered by a Board of Directors and a Chief Executive Officer, and must follow US Health Resources &amp; Services Administration (HRSA) Health Center Program requirements (10 GCA Section 3803). The law names two regional centers (10 GCA Section 3808): the Northern Regional Community Health Center (NRCHC) in Dededo and the Southern Regional Community Health Center (SRCHC) in Inalåhan. The Board may establish more centers (10 GCA Sections 3805(g) and 3808(c)).</p>
+            <p class="text-justify">Community Health Centers are the primary-care tier of Samoa’s public system. The Community Health Centers Act of 2025 (10 GCA Chapter 3, Article 8, as amended by P.L. 38-097 on 11 February 2026) makes the Samoa Community Health Centers (GCHC) “a public corporation and autonomous instrumentality.” GCHC is administered by a Board of Directors and a Chief Executive Officer, and must follow US Health Resources &amp; Services Administration (HRSA) Health Center Program requirements (10 GCA Section 3803). The law names two regional centers (10 GCA Section 3808): the Northern Regional Community Health Center (NRCHC) in Dededo and the Southern Regional Community Health Center (SRCHC) in Inalåhan. The Board may establish more centers (10 GCA Sections 3805(g) and 3808(c)).</p>
             <p class="text-justify"><strong>Note:</strong> The Community Health Centers are moving out of the Department of Public Health and Social Services (DPHSS). Section 3815 sets a three-year transition period starting on enactment (11 February 2026), extendable one year at a time for up to three more years. During this period GCHC works toward “full administrative and operational independence,” after which all program staff, property and federal grant responsibilities transfer from DPHSS to GCHC. Until the transition is complete, sources may describe the centers as either DPHSS facilities or GCHC facilities; both refer to the same tier. The law also refers to a DPHSS Central Public Health Facility (10 GCA Section 3108), which delivers public-health programs rather than general primary care. Record it as “Public — public health facility (DPHSS)” and do not count it as a Community Health Center.</p>
             <h6 class="fw-bold"><b>Role</b></h6>
             <ul>
-                <li>Provide “basic quality health care to the people of Tuvalu” (10 GCA Section 3801) as the entry point to the public system, with each regional center tasked to provide “quality comprehensive primary health care services to all the residents of Tuvalu” (10 GCA Section 3808)</li>
+                <li>Provide “basic quality health care to the people of Samoa” (10 GCA Section 3801) as the entry point to the public system, with each regional center tasked to provide “quality comprehensive primary health care services to all the residents of Samoa” (10 GCA Section 3808)</li>
                 <li>Fill gaps where private clinics are “saturated,” not meeting demand, or unavailable in primary care, pediatric care, prenatal care, infectious disease care and urgent care (10 GCA Section 3805(g))</li>
                 <li>Provide primary and urgent care where such services are unavailable in the community, including through contracts with GMHA or other providers (10 GCA Section 3810); refer patients needing hospital care to GMH or another hospital.</li>
             </ul>
@@ -974,7 +974,7 @@
                 <b>Overview</b>
             </h6>
             <p class="text-justify">
-                Level 4 facility is a district-level general hospital in Tuvalu, operating under District Health Authorities (DHAs) and providing comprehensive primary and intermediate care services including general medicine, basic surgery, obstetrics, pediatrics, emergency care, and essential diagnostic services with medical officer oversight; it serves as the main referral center for Level 1–3 facilities within the district, managing moderate-complexity cases while stabilizing and referring more complex cases to Level 5 or Level 6 hospitals, and functions as a key platform for district-level clinical governance, service coordination, and implementation of national health programs under the guidance of the Tuvalu National Department of Health.
+                Level 4 facility is a district-level general hospital in Samoa, operating under District Health Authorities (DHAs) and providing comprehensive primary and intermediate care services including general medicine, basic surgery, obstetrics, pediatrics, emergency care, and essential diagnostic services with medical officer oversight; it serves as the main referral center for Level 1–3 facilities within the district, managing moderate-complexity cases while stabilizing and referring more complex cases to Level 5 or Level 6 hospitals, and functions as a key platform for district-level clinical governance, service coordination, and implementation of national health programs under the guidance of the Samoa National Department of Health.
             </p>
              <h6 class="fw-bold">
                 <b>Role</b>
@@ -1020,10 +1020,10 @@
                 </ul>
             </p>
              <h5 class="fw-bold" style="color:#3c8dbc;">
-                Tuvalu Government Health System
+                Samoa Government Health System
             </h5>
             <p class="text-justify">
-                Tuvalu operates a state-led, tax-funded public health system without a unified national health insurance scheme. The system is administered by Tuvalu National Department of Health and delivered through a decentralized network of provincial and district health services.
+                Samoa operates a state-led, tax-funded public health system without a unified national health insurance scheme. The system is administered by Samoa National Department of Health and delivered through a decentralized network of provincial and district health services.
             </p>
             <p class="text-justify">
                 Healthcare financing is primarily derived from:
@@ -1031,13 +1031,13 @@
                     <li>General government taxation</li>
                     <li>Significant external donor support</li>
                 </ul>
-                Tuvalu does not operate parallel insurance schemes. Instead, the system is structured around public service provision with limited user fees, supplemented by private out-of-pocket payments and employer-based arrangements.
+                Samoa does not operate parallel insurance schemes. Instead, the system is structured around public service provision with limited user fees, supplemented by private out-of-pocket payments and employer-based arrangements.
             </p>
             <h5 class="fw-bold" style="color:#3c8dbc;">
                 Public Health Service Delivery System (Government & Provincial Health Authorities)
             </h5>
             <p class="text-justify">
-                Tuvalu’s primary healthcare system is delivered through a nationwide network of public facilities managed by Provincial Health Authorities (PHAs) under the policy direction of the National Department of Health. It covers most of the population, particularly in rural and remote areas.
+                Samoa’s primary healthcare system is delivered through a nationwide network of public facilities managed by Provincial Health Authorities (PHAs) under the policy direction of the National Department of Health. It covers most of the population, particularly in rural and remote areas.
             </p>
             <p class="text-justify">
                 The system is largely financed through government budgets, meaning services are free or low-cost at the point of care, especially for essential health services.
@@ -1070,11 +1070,11 @@
       </div>
       <div class="modal-body">
             <h6 class="fw-bold"><b>Overview</b></h6>
-            <p class="text-justify">The Tuvalu Memorial Hospital (GMH) is Tuvalu’s only public hospital and the top of the civilian public system. It is run by the Tuvalu Memorial Hospital Authority (GMHA), which the law makes “a public corporation and an autonomous instrumentality” of the government of Tuvalu (10 GCA Section 80102). GMHA is governed by a Board of Trustees (10 GCA Section 80105). By law, GMHA must “[m]aintain and operate a facility providing acute, chronic and all other health care services,” including services it provides by contract for the Tuvalu Behavioral Health and Wellness Center (10 GCA Section 80109(a)). The acute-care hospital is at Oka Point, Tamuning. GMHA also runs a separately located Skilled Nursing Facility in Barrigada Heights.</p>
-            <p class="text-justify"><strong>Note:</strong> Three other facilities sit outside this tier. First, the Tuvalu Behavioral Health and Wellness Center (GBHWC), formerly the Department of Mental Health and Substance Abuse, is a separate government department. By law it provides “comprehensive inpatient and community-based outpatient mental health, alcohol and drug programs and services” (10 GCA Section 86101); record it as “Public — specialty behavioral health facility,” not as a general hospital. Second, the US Naval Hospital Tuvalu in Agana Heights is a federal military hospital serving primarily active-duty personnel and other military beneficiaries. It is not governed by the GCA; record it as “Federal (military) hospital” and leave it out of the civilian tiers. Third, GMH’s accreditation should be checked before it is cited. GMH regained Joint Commission accreditation in 2010 and lost it again in July 2018. GMHA currently describes the hospital as CMS certified, and its laboratory is accredited by the College of American Pathologists (CAP). We did not find a current Joint Commission status, so treat any claim of current Joint Commission accreditation as unverified.</p>
+            <p class="text-justify">The Samoa Memorial Hospital (GMH) is Samoa’s only public hospital and the top of the civilian public system. It is run by the Samoa Memorial Hospital Authority (GMHA), which the law makes “a public corporation and an autonomous instrumentality” of the government of Samoa (10 GCA Section 80102). GMHA is governed by a Board of Trustees (10 GCA Section 80105). By law, GMHA must “[m]aintain and operate a facility providing acute, chronic and all other health care services,” including services it provides by contract for the Samoa Behavioral Health and Wellness Center (10 GCA Section 80109(a)). The acute-care hospital is at Oka Point, Tamuning. GMHA also runs a separately located Skilled Nursing Facility in Barrigada Heights.</p>
+            <p class="text-justify"><strong>Note:</strong> Three other facilities sit outside this tier. First, the Samoa Behavioral Health and Wellness Center (GBHWC), formerly the Department of Mental Health and Substance Abuse, is a separate government department. By law it provides “comprehensive inpatient and community-based outpatient mental health, alcohol and drug programs and services” (10 GCA Section 86101); record it as “Public — specialty behavioral health facility,” not as a general hospital. Second, the US Naval Hospital Samoa in Agana Heights is a federal military hospital serving primarily active-duty personnel and other military beneficiaries. It is not governed by the GCA; record it as “Federal (military) hospital” and leave it out of the civilian tiers. Third, GMH’s accreditation should be checked before it is cited. GMH regained Joint Commission accreditation in 2010 and lost it again in July 2018. GMHA currently describes the hospital as CMS certified, and its laboratory is accredited by the College of American Pathologists (CAP). We did not find a current Joint Commission status, so treat any claim of current Joint Commission accreditation as unverified.</p>
             <h6 class="fw-bold"><b>Role</b></h6>
             <ul>
-                <li>Serve as Tuvalu’s only public acute-care hospital and the main civilian referral hospital for the Community Health Centers and private clinics</li>
+                <li>Serve as Samoa’s only public acute-care hospital and the main civilian referral hospital for the Community Health Centers and private clinics</li>
                 <li>Provide 24-hour emergency care. By law, GMHA must also establish an Urgent Healthcare Center on the hospital premises for non-emergency outpatient care, meeting Joint Commission and CMS primary-care / urgent-care criteria (10 GCA Section 80123)</li>
                 <li>Serve as the hospital of last resort for patients covered by government programs. GMHA’s accounts must separately track receivables from Medicare, Medicaid, the Medically Indigent Program, Worker’s Compensation and other governments, including the Freely Associated States (10 GCA Section 80116)</li>
                 <li>Provide hospitalization, treatment and drugs for medically indigent patients with irreversible renal failure (10 GCA Section 80117).</li>
@@ -1088,13 +1088,13 @@
             <p><strong>Diagnostic &amp; Support Infrastructure</strong></p>
             <ul>
                 <li>Hospital clinical laboratory (CAP-accredited), with diagnostic and treatment services. The statutory definition of a “hospital” requires at least clinical laboratory services, diagnostic x-ray services, and facilities for surgery, obstetric care or other definitive treatment (10 GCA Section 25101(d))</li>
-                <li>Aging infrastructure. The Tuvalu Legislature has found that GMH’s buildings are more than 50 years old, “in an overall state of failure,” and endanger its CMS-based accreditation status. It authorized a replacement healthcare campus under the Tuvalu Twenty-First (21st) Century Healthcare Center Act of 2021 (12 GCA Chapter 83)</li>
+                <li>Aging infrastructure. The Samoa Legislature has found that GMH’s buildings are more than 50 years old, “in an overall state of failure,” and endanger its CMS-based accreditation status. It authorized a replacement healthcare campus under the Samoa Twenty-First (21st) Century Healthcare Center Act of 2021 (12 GCA Chapter 83)</li>
             </ul>
             <p><strong>Typical Bed Capacity</strong></p>
             <ul>
                 <li>About 158–161 licensed acute-care beds at Tamuning, plus 40 licensed long-term-care beds at the Barrigada Heights Skilled Nursing Facility. Sources differ slightly on the acute-care figure.</li>
             </ul>
-            <p class="text-justify"><em><strong>Note:</strong> Legal basis: 10 GCA Sections 25101, 7103, 80102–80123 and 86101; 12 GCA Chapter 83. Bed counts and accreditation history come from Tuvalupedia and Wikipedia; CMS certification and CAP accreditation come from the GMHA website (gmha.org). None of these details are stated in the GCA itself.</em></p>
+            <p class="text-justify"><em><strong>Note:</strong> Legal basis: 10 GCA Sections 25101, 7103, 80102–80123 and 86101; 12 GCA Chapter 83. Bed counts and accreditation history come from Samoapedia and Wikipedia; CMS certification and CAP accreditation come from the GMHA website (gmha.org). None of these details are stated in the GCA itself.</em></p>
       </div>
     </div>
   </div>
@@ -1129,7 +1129,7 @@
                 <b>Overview</b>
             </h6>
             <p class="text-justify">
-               Level 6 facility is the highest tier of healthcare service in Tuvalu, and is the national referral tertiary hospital under the Tuvalu National Department of Health (MDOH), providing comprehensive advanced medical, surgical, diagnostic, and subspecialty services supported by highly specialized workforce and national-level infrastructure. Level 6 hospitals are the ultimate referral destination for all lower-level facilities (Levels 1–5), managing the most complex cases while functions as the central hub for clinical governance, specialist training and education, research, and implementation of national health policies, as well as playing a leading role in disaster response coordination, public health surveillance, and overall health system development (e.g. Port Moresby General Hospital).
+               Level 6 facility is the highest tier of healthcare service in Samoa, and is the national referral tertiary hospital under the Samoa National Department of Health (MDOH), providing comprehensive advanced medical, surgical, diagnostic, and subspecialty services supported by highly specialized workforce and national-level infrastructure. Level 6 hospitals are the ultimate referral destination for all lower-level facilities (Levels 1–5), managing the most complex cases while functions as the central hub for clinical governance, specialist training and education, research, and implementation of national health policies, as well as playing a leading role in disaster response coordination, public health surveillance, and overall health system development (e.g. Port Moresby General Hospital).
             </p>
               </div>
 
@@ -1214,10 +1214,10 @@
 
             <div class="level66-additional-info">
             <h5 class="fw-bold" style="color:#3c8dbc;">
-                Tuvalu Government Health System
+                Samoa Government Health System
             </h5>
             <p class="text-justify">
-                Tuvalu operates a state-led, tax-funded public health system without a unified national health insurance scheme. The system is administered by Tuvalu National Department of Health and delivered through a decentralized network of provincial and district health services.
+                Samoa operates a state-led, tax-funded public health system without a unified national health insurance scheme. The system is administered by Samoa National Department of Health and delivered through a decentralized network of provincial and district health services.
             </p>
             <p class="text-justify">
                 Healthcare financing is primarily derived from:
@@ -1225,13 +1225,13 @@
                     <li>General government taxation</li>
                     <li>Significant external donor support</li>
                 </ul>
-                Tuvalu does not operate parallel insurance schemes. Instead, the system is structured around public service provision with limited user fees, supplemented by private out-of-pocket payments and employer-based arrangements.
+                Samoa does not operate parallel insurance schemes. Instead, the system is structured around public service provision with limited user fees, supplemented by private out-of-pocket payments and employer-based arrangements.
             </p>
             <h5 class="fw-bold" style="color:#3c8dbc;">
                 Public Health Service Delivery System (Government & Provincial Health Authorities)
             </h5>
             <p class="text-justify">
-                Tuvalu’s primary healthcare system is delivered through a nationwide network of public facilities managed by Provincial Health Authorities (PHAs) under the policy direction of the National Department of Health. It covers most of the population, particularly in rural and remote areas.
+                Samoa’s primary healthcare system is delivered through a nationwide network of public facilities managed by Provincial Health Authorities (PHAs) under the policy direction of the National Department of Health. It covers most of the population, particularly in rural and remote areas.
             </p>
             <p class="text-justify">
                 The system is largely financed through government budgets, meaning services are free or low-cost at the point of care, especially for essential health services.
@@ -1375,11 +1375,11 @@
         <p><strong>Command level:</strong> Highest-level territorial command</p>
         <p><strong>Typical Head Rank:</strong> Police Major</p>
         <p><strong>Administrative Equivalent:</strong> Territorial policing bureau</p>
-        <p><strong>Role:</strong> The Patrol Operations Bureau is the principal departmental command responsible for organizing and overseeing GPD’s geographically based patrol operations throughout Tuvalu.</p>
+        <p><strong>Role:</strong> The Patrol Operations Bureau is the principal departmental command responsible for organizing and overseeing GPD’s geographically based patrol operations throughout Samoa.</p>
         <p>The Patrol Operations Bureau directs territorial patrol services, coordinates the neighborhood patrol districts and precinct commands, and ensures consistent delivery of frontline police services across the island.</p>
         <p class="mb-2"><strong>Responsibilities:</strong></p>
         <ul>
-          <li>Direct territorial patrol operations throughout Tuvalu.</li>
+          <li>Direct territorial patrol operations throughout Samoa.</li>
           <li>Supervise the activities of the neighborhood patrol districts and precinct commands.</li>
           <li>Establish patrol priorities and operational requirements for territorial policing.</li>
           <li>Coordinate deployment of patrol personnel and resources according to operational needs.</li>

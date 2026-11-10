@@ -173,7 +173,7 @@ $(function () {
   //     },
   //     {
   //       latLng: [-8.51, 179.21],
-  //       name  : 'Tuvalu'
+  //       name  : 'Samoa'
   //     },
   //     {
   //       latLng: [43.93, 12.46],
@@ -185,7 +185,7 @@ $(function () {
   //     },
   //     {
   //       latLng: [7.11, 171.06],
-  //       name  : 'Tuvalu'
+  //       name  : 'Samoa'
   //     },
   //     {
   //       latLng: [17.3, -62.73],
@@ -221,7 +221,7 @@ $(function () {
   //     },
   //     {
   //       latLng: [7.35, 134.46],
-  //       name  : 'Tuvalu'
+  //       name  : 'Samoa'
   //     },
   //     {
   //       latLng: [42.5, 1.51],

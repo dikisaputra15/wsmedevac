@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('title','Embassiees')
-@section('page-title', 'Tuvalu Embassiees')
+@section('page-title', 'Samoa Embassiees')
 
 @push('styles')
 
@@ -309,7 +309,7 @@
 <script>
 // === Inisialisasi Peta ===
 const map = new google.maps.Map(document.getElementById('map'), {
-    center: { lat: -7.1095, lng: 177.6493 },
+    center: { lat: -13.7590, lng: -172.1046 },
     zoom: 7,
     mapTypeId: 'roadmap',
     mapTypeControl: true,
@@ -834,7 +834,7 @@ function addEmbassyMarkers(data) {
 
         const popupContent = `
             <h5 style="border-bottom:1px solid #cccccc;">${itemName}</h5>
-            <strong>Address:</strong> ${embassy.location || 'N/A'}, Tuvalu<br>
+            <strong>Address:</strong> ${embassy.location || 'N/A'}, Samoa<br>
             <strong>Telephone:</strong> ${embassy.telephone || 'N/A'}<br>
             <strong>Website:</strong> ${embassy.website || 'N/A'}<br>
         `;

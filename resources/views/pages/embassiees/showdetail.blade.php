@@ -142,7 +142,7 @@
                     <p>
                         <strong>Address:</strong>
                         {{ $embassy->location }},
-                        {{ $province->provinces_region }}, Tuvalu
+                        {{ $province->provinces_region }}, Samoa
                     </p>
                     <p>
                         <strong>Latitude:</strong> {{ $embassy->latitude }}

@@ -22,9 +22,9 @@
 
          <div class="col-md-12">
             <div class="form-group">
-                <label>Island</label>
+                <label>Village</label>
                 <select class="form-control" name="province_id">
-                        <option value="0">-Choosse Island-</option>
+                        <option value="0">-Choosse Village-</option>
                     @foreach($provinces as $prov)
                         <option value="{{$prov->id}}">{{$prov->provinces_region}}</option>
                     @endforeach
@@ -56,8 +56,11 @@
             <div class="form-group">
                 <label>Facility Level</label>
                 <select class="form-control" name="facility_level">
-                    <option value="Hospital">
-                        Hospital
+                    <option value="National Hospital">
+                        National Hospital
+                    </option>
+                    <option value="District Hospital">
+                        District Hospital
                     </option>
                     <option value="Clinic / Health Center">
                         Clinic / Health Center
@@ -95,8 +98,9 @@
         <div class="col-md-12">
             <div class="form-group">
                 <label>Icon</label>
-                <input type="radio" name="icon" value="https://pg.concordreview.com/wp-content/uploads/2025/01/hospital_pin-blue.png"><img src="https://pg.concordreview.com/wp-content/uploads/2025/01/hospital_pin-blue.png" style="width:24; height:24;"> Hospital
-                <input type="radio" name="icon" value="https://pg.concordreview.com/wp-content/uploads/2025/01/hospital_pin-green.png"><img src="https://pg.concordreview.com/wp-content/uploads/2025/01/hospital_pin-green.png" style="width:24; height:24;"> Clinic / Health Center
+                <input type="radio" name="icon" value="https://pg.concordreview.com/wp-content/uploads/2025/01/hospital_pin-blue.png"><img src="https://pg.concordreview.com/wp-content/uploads/2025/01/hospital_pin-blue.png" style="width:24; height:24;"> National Hospital
+                <input type="radio" name="icon" value="https://pg.concordreview.com/wp-content/uploads/2025/01/hospital_pin-green.png"><img src="https://pg.concordreview.com/wp-content/uploads/2025/01/hospital_pin-green.png" style="width:24; height:24;"> District Hospital
+                <input type="radio" name="icon" value="https://pg.concordreview.com/wp-content/uploads/2025/01/hospital_pin-tosca.png"><img src="https://pg.concordreview.com/wp-content/uploads/2025/01/hospital_pin-tosca.png" style="width:24; height:24;"> Clinic / Health Center
             </div>
         </div>
 
