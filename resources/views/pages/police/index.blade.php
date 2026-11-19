@@ -1554,10 +1554,9 @@ setTimeout(() => {
     initLocationSearch();
 }, 350);
 
-// Retry sampai badge kategori (di dalam combinedPanelDiv) benar-benar ada di DOM,
-// supaya jumlah per kategori tidak "nyangkut" di 0 saat load pertama.
+// Wait for Google Maps to attach the filter control before loading markers.
 function initialApplyFilters() {
-    if (!document.querySelector('#filterPanel [id^="count-"]')) {
+    if (!combinedPanelDiv.isConnected) {
         setTimeout(initialApplyFilters, 200);
         return;
     }
