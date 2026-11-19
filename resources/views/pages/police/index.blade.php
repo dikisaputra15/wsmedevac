@@ -224,23 +224,6 @@
             margin: 16px auto;
         }
 
-        #policeAreaLayerModal .image-modal-dialog {
-            max-width: 1660px;
-        }
-
-        #policeAreaLayerModal .police-area-layer-body {
-            padding: 0;
-            overflow: hidden;
-        }
-
-        #policeAreaLayerModal .police-area-layer-frame {
-            display: block;
-            width: 100%;
-            height: calc(100vh - 110px);
-            height: calc(100dvh - 110px);
-            border: 0;
-        }
-
         .image-modal-dialog .modal-content {
             max-height: calc(100vh - 32px);
             overflow: hidden;
@@ -363,12 +346,16 @@
 
                 <button class="btn p-1" data-bs-toggle="modal" data-bs-target="#police4Modal">
                     <img src="{{ asset('images/Layer1.png') }}" style="width:15px; height:15px;">
-                    <small>National Police HQ</small>
+                    <small>National Police (HQ)</small>
                 </button>
 
                 <button class="btn p-1" data-bs-toggle="modal" data-bs-target="#police3Modal">
                     <img src="{{ asset('images/Layer2.png') }}" style="width:15px; height:15px;">
-                    <small>Police Precint</small>
+                    <small>Local Police Outpost</small>
+                </button>
+                <button class="btn p-1" data-bs-toggle="modal" data-bs-target="#police2Modal">
+                    <img src="{{ asset('images/Layer3.png') }}" style="width:15px; height:15px;">
+                    <small>Specialist Police Outpost</small>
                 </button>
 
                 <button type="button" class="btn btn-danger d-flex flex-column align-items-center p-3 {{ request()->is('hospital') ? 'active' : '' }}"
@@ -426,111 +413,11 @@
   </div>
 </div>
 
-<div class="modal fade" id="police2Modal" tabindex="-1" aria-labelledby="police2ModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" style="max-width:800px;">
-    <div class="modal-content">
-      <div class="modal-header">
-        <div class="d-flex align-items-center gap-2">
-          <img src="{{ asset('images/Layer3.png') }}" alt="Provincial Police Command" style="width:24px; height:24px; object-fit:contain;">
-          <h5 class="modal-title" id="police2ModalLabel">Provincial Police Command (PPC)</h5>
-        </div>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
+@include('components.legend-modals.police2Modal')
 
-      <div class="modal-body">
-        <p><strong>Command Level:</strong> Second-tier Territorial Police Command</p>
-        <p><strong>Typical Head Rank:</strong> Chief Superintendent of Police (CSP) or Superintendent of Police (SP)</p>
-        <p><strong>Administrative Equivalent:</strong> Provincial (or Metropolitan Command in the National Capital District and Lae) level</p>
+@include('components.legend-modals.police3Modal')
 
-        <p>Commands all policing activities within a province or metropolitan area by directing district police commands, managing crime prevention and law enforcement operations, coordinating emergency responses, and implementing national policing policies at the provincial level.</p>
-
-        <p class="mb-2"><strong>Responsibilities:</strong></p>
-        <ul>
-          <li>Command all policing operations within a province.</li>
-          <li>Supervise District Police Commanders and Station Commanders.</li>
-          <li>Coordinate crime prevention, patrol, and public order operations.</li>
-          <li>Direct provincial criminal investigations and emergency responses.</li>
-          <li>Manage police personnel, logistics, and operational resources within the province.</li>
-          <li>Coordinate policing activities with provincial administrations and local authorities.</li>
-          <li>Monitor crime patterns and public safety issues.</li>
-          <li>Ensure compliance with national policing standards and operational procedures.</li>
-          <li>Prepare operational reports for the Divisional Police Commander.</li>
-          <li>Promote community policing and public engagement initiatives.</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="modal fade" id="police3Modal" tabindex="-1" aria-labelledby="police3ModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" style="max-width:800px;">
-    <div class="modal-content">
-      <div class="modal-header">
-        <div class="d-flex align-items-center gap-2">
-          <img src="{{ asset('images/Layer2.png') }}" alt="Divisional Command" style="width:24px; height:24px; object-fit:contain;">
-          <h5 class="modal-title" id="police3ModalLabel">Police Precinct</h5>
-        </div>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-
-      <div class="modal-body">
-        <p><strong>Command level:</strong> Lowest-level territorial command</p>
-        <p><strong>Typical Head Rank:</strong> Police Lieutenant</p>
-        <p><strong>Administrative Equivalent:</strong> Police Precinct/local police command</p>
-        <p><strong>Role:</strong> Precinct Commands are the local territorial policing unit responsible for delivering frontline police services within designated geographic jurisdictions.</p>
-        <p><strong>Function:</strong> Precinct Commands manage patrol officers and shifts, coordinate first-response policing, and maintain day-to-day public safety and police presence within the Precinct area.</p>
-        <p class="mb-2"><strong>Responsibilities:</strong></p>
-        <ul>
-          <li>Direct daily patrol operations within the Precinct jurisdiction.</li>
-          <li>Supervise patrol officers, shifts, and other assigned frontline personnel.</li>
-          <li>Allocate personnel and patrol resources according to local operational requirements.</li>
-          <li>Manage responses to emergency and non-emergency calls for service.</li>
-          <li>Monitor crime, disorder, traffic, and public-safety conditions within the Precinct.</li>
-          <li>Coordinate preliminary responses to incidents requiring specialized GPD services.</li>
-          <li>Maintain liaison with residents, businesses, community organizations, and local authorities.</li>
-          <li>Review incident, arrest, and other operational reports submitted by patrol personnel.</li>
-          <li>Implement GPD policies and operational directives at the Precinct level.</li>
-          <li>Report Precinct activities, incidents, personnel matters, and operational requirements through the Neighborhood Patrol District command.</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="modal fade" id="police4Modal" tabindex="-1" aria-labelledby="police4ModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" style="max-width:800px;">
-    <div class="modal-content">
-      <div class="modal-header">
-        <div class="d-flex align-items-center gap-2">
-          <img src="{{ asset('images/Layer1.png') }}" alt="National Police HQ" style="width:24px; height:24px; object-fit:contain;">
-          <h5 class="modal-title" id="police4ModalLabel">National Police HQ</h5>
-        </div>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-
-      <div class="modal-body">
-        <p><strong>Command level:</strong> Highest-level territorial command</p>
-        <p><strong>Typical Head Rank:</strong> Police Major</p>
-        <p><strong>Administrative Equivalent:</strong> Territorial policing bureau</p>
-        <p><strong>Role:</strong> The Patrol Operations Bureau is the principal departmental command responsible for organizing and overseeing GPD’s geographically based patrol operations throughout Samoa.</p>
-        <p>The Patrol Operations Bureau directs territorial patrol services, coordinates the neighborhood patrol districts and precinct commands, and ensures consistent delivery of frontline police services across the island.</p>
-        <p class="mb-2"><strong>Responsibilities:</strong></p>
-        <ul>
-          <li>Direct territorial patrol operations throughout Samoa.</li>
-          <li>Supervise the activities of the neighborhood patrol districts and precinct commands.</li>
-          <li>Establish patrol priorities and operational requirements for territorial policing.</li>
-          <li>Coordinate deployment of patrol personnel and resources according to operational needs.</li>
-          <li>Monitor emergency response and frontline police service delivery.</li>
-          <li>Manage major incidents requiring resources from multiple Precincts or districts.</li>
-          <li>Ensure implementation of department-wide policing policies at the territorial level.</li>
-          <li>Review operational reports, crime patterns, and patrol performance from subordinate commands.</li>
-          <li>Oversee territorial operations with specialized GPD bureaus and divisions.</li>
-          <li>Report territorial policing activities and operational requirements to the Police Commander.</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</div>
+@include('components.legend-modals.police4Modal')
 
 <div class="modal fade" id="policeAreaLayerModal" tabindex="-1" aria-labelledby="policeAreaLayerLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered image-modal-dialog">
@@ -542,13 +429,13 @@
         </div>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
-      <div class="modal-body police-area-layer-body">
-        <iframe
-            class="police-area-layer-frame"
-            src="{{ asset('police-area-layer.html') }}"
-            title="Police Territorial Areas and Administrative Equivalents"
-            loading="lazy"
-        ></iframe>
+      <div class="modal-body p-4" style="overflow-y: auto;">
+        <ol class="mb-3 ps-4">
+          <li class="mb-3"><strong>Strategic Command:</strong> Encompassing the Commissioner, the Minister of Police, Prisons, and Corrections, and executive advisory bodies, this layer establishes national law enforcement policy, formulates long-term corporate strategies, manages ministerial and cabinet relations, and ensures overarching legislative compliance.</li>
+          <li class="mb-3"><strong>Headquarters Command:</strong> Operating out of the Commissioner&rsquo;s Office and supported by Executive Support, Legal Advisory, Internal Audit, Professional Standards, and Corporate &amp; Strategic Services, this functional level manages high-level administrative oversight, resource allocation, media communications, and institutional governance across the force.</li>
+          <li><strong>Functional Command:</strong> Comprising specialized operational divisions&mdash;such as the Criminal Investigation Division (CID), Forensic Unit, Tactical Operations Section, Maritime Unit, Prosecution Unit, and Training Academy&mdash;this layer delivers centralized expert capabilities, complex investigative support, tactical interventions, and specialized technical services statewide.</li>
+        </ol>
+        <p class="mb-0"><strong>Territorial Command:</strong> Executed through regional policing divisions, central stations, and localized outposts across Upolu, Savai&rsquo;i, Manono, and Apolima, this operational layer provides continuous frontline general duties, community policing, immediate emergency call response, traffic enforcement, and local dispute resolution in direct coordination with traditional village leadership.</p>
       </div>
     </div>
   </div>
@@ -565,15 +452,15 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body p-4" style="overflow-y: auto;">
-        <p>The GPD’s command flow follows a hierarchical structure from the Governor of Samoa as the civilian executive authority, through the Chief of Police and the Police Commander, to the Department’s operational and specialized bureaus. Under the Police Commander, the Patrol Operations Bureau directs the neighborhood patrol districts and their respective precinct commands, which in turn supervise frontline patrol officers and shifts. Specialized functions, including investigations, forensic services, highway patrol, and special operations, operate through their respective bureau and division chains while remaining integrated into the overall command structure. This arrangement enables strategic direction from the executive and headquarters levels to be translated into operational orders, specialized activities, and geographically focused frontline policing throughout Samoa.</p>
+        <p>Command flow within the Samoa Police Service (SPS) originates from the Commissioner of Police&mdash;who maintains direct accountability to the Minister of Police, Prisons, and Corrections&mdash;and extends downward through executive leadership and central headquarters support services. National frontline policing is directed by the Deputy Commissioner for District Operations, who exercises operational oversight across Apia Central, general policing duties, six (6) Upolu outposts, and four (4) Savai&rsquo;i outposts. Frontline personnel carry out local service delivery, while specialized investigative, technical, corporate, and governance units supply essential support capabilities to reinforce territorial law enforcement operations across Samoa.</p>
 
         <h6 class="fw-bold mt-4 mb-3">Reporting Relationships &mdash; Information Flows</h6>
-        <ol class="mb-0 ps-4">
-          <li class="mb-3"><strong>Divisional Reporting:</strong> Precinct commands and patrol shifts report operational activities, incidents, and local policing matters through their respective neighborhood patrol districts and Patrol Operations Bureau chains to the Police Commander.</li>
-          <li class="mb-3"><strong>Specialized Case Reporting:</strong> Cases requiring specialized investigation, forensic examination, highway enforcement, or special operations are referred through the appropriate specialized division or bureau, with case information and operational results reported through their respective command chains.</li>
-          <li class="mb-3"><strong>Headquarters Reporting:</strong> Bureaus and divisions submit operational, personnel, administrative, and performance information through the Police Commander and Chief of Police to maintain department-wide coordination and oversight.</li>
-          <li><strong>Strategic and Administrative Reporting:</strong> The Chief of Police provides overall departmental reporting and administrative accountability to the Governor of Samoa, while strategic direction, policy, resources, and major administrative matters flow from the executive level through the GPD command structure.</li>
+        <ol class="mb-3 ps-4">
+          <li class="mb-3"><strong>Territorial Reporting:</strong> Frontline officers and post supervisors at rural and island outposts submit routine shift logs, incident reports, and local intelligence directly to their respective station Officers-in-Charge (OICs), who consolidate these operational data streams for transmission to regional command hubs such as Tuasivi in Savai&rsquo;i or Apia Central in Upolu.</li>
+          <li class="mb-3"><strong>Specialized Operational Reporting:</strong> Specialized units, including the Criminal Investigation Division (CID), Maritime Unit, and Tactical Operations Section, maintain direct operational reporting lines to their divisional Superintendents, who aggregate technical case files, threat assessments, and specialized unit metrics for executive review.</li>
+          <li><strong>Executive Administrative Reporting:</strong> Non-operational corporate branches&mdash;such as Finance, Human Resources, ICT, and Assets&mdash;channel administrative performance reports, budget tracking data, and audit compliance metrics through the Assistant Commissioner of Corporate &amp; Strategic Services directly to the Commissioner&rsquo;s Office.</li>
         </ol>
+        <p class="mb-0"><strong>National Command Reporting:</strong> The Deputy Commissioners and Assistant Commissioners synthesize field operational data, strategic briefings, and corporate metrics into comprehensive executive briefs for the Commissioner, who maintains the ultimate reporting link to the Minister of Police, Prisons, and Corrections and the Cabinet of Samoa.</p>
       </div>
     </div>
   </div>
@@ -1235,6 +1122,8 @@ function addPoliceMarkers(data) {
         map.fitBounds(bounds, 50);
 }
 
+@include('components.police-category-filter-script')
+
 // === Apply Filter POLICE ===
 async function applyPoliceFilters() {
     const provs = [...document.querySelectorAll('.province-checkbox:checked')].map(e => e.value);
@@ -1246,7 +1135,6 @@ async function applyPoliceFilters() {
 
     if (policeName) filters.name = policeName;
     if (provs.length > 0) filters.provinces = provs;
-    if (categories.length > 0) filters.categories = categories;
 
     if (radius > 0 && lastClickedLocation) {
         filters.radius = radius;
@@ -1256,24 +1144,12 @@ async function applyPoliceFilters() {
 
     const result = await fetchPoliceData(filters);
 
-    const polices = result.polices;
-    const categoryCounts = result.categoryCounts;
+    const polices = filterPoliceByCategory(result.polices || [], categories);
 
     addPoliceMarkers(polices);
 
     document.getElementById('totalCountDisplay').innerHTML =
         `<strong>Police:</strong> ${polices.length}`;
-
-    Object.keys(categoryCounts).forEach(cat => {
-
-        const id = cat.replace(/[^a-zA-Z0-9]/g,'-');
-
-        const el = document.getElementById(`count-${id}`);
-
-        if (el) {
-            el.textContent = categoryCounts[cat];
-        }
-    });
 }
 
 // === Filter Panel (Custom Google Maps Control) ===
@@ -1335,17 +1211,7 @@ combinedPanelDiv.innerHTML = `
                     <option value="{{ $n }}">{{ $n }}</option>
                 @endforeach
             </select>
-            <label>Category:</label>
-            ${[
-                'National Police HQ',
-                'Local Police Outpost',
-                'Specialist Police Outpost',
-            ].map(c => `
-            <label style="display:block;font-size:13px;margin-bottom:5px;">
-                <input type="checkbox" name="policeCategory" value="${c}">
-                ${c} (<span id="count-${c.replace(/[^a-zA-Z0-9]/g,'-')}">0</span>)
-            </label>
-            `).join('')}
+            @include('components.police-category-checkboxes')
             <hr>
             <div class="filter-box" id="provinceSelect">
                 <label class="filter-label">Province</label>
